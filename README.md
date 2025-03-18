@@ -11,13 +11,11 @@ A cutting-edge face recognition system evaluating model robustness against real-
 
 ## 📂 Dataset Architecture
 ### **Core Datasets**
-| Dataset      | Subjects | Images | Occlusion Types              | Resolution |
-|--------------|----------|--------|-------------------------------|------------|
-| CASIA        | 14       | 190    | None                          | 640x480    |
-| Occluded     | 200      | 1600   | Left crop, right Crop,        | 640x480    |
-                                   |  Low brightness,              |
-                                   |  high brightness,             |
-                                   |  Blackdots, Blurred, Sktech,  |
+| Dataset      | Subjects | Images | Occlusion Types                                                                           | Resolution |
+|--------------|----------|--------|-------------------------------------------------------------------------------------------|------------|
+| CASIA        | 14       | 190    | None                                                                                      | 640x480    |
+| Occluded     | 200      | 1600   | Left crop, right Crop,  Low brightness, high brightness, Blackdots, Blurred, Sktech,      | 640x480    |
+                                  
 
 ### **Augmentation Pipeline**
 ```mermaid
