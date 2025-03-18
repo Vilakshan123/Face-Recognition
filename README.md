@@ -38,6 +38,7 @@ def apply_occlusion(img):
     ])
     # Implementation details in augmentation.py
     return transformed_image
+```
 
 
 ## 🛠 Technical Implementation
