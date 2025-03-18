@@ -20,10 +20,10 @@ A cutting-edge face recognition system evaluating model robustness against real-
 
 ## 🛠 Technical Implementation
 ###Core Components
-- Face Processing
-- MTCNN-based alignment with 5-point landmarks
--Adaptive histogram equalization
--160x160 normalized RGB output
+  - Face Processing
+  - MTCNN-based alignment with 5-point landmarks
+  -Adaptive histogram equalization
+  -160x160 normalized RGB output
 
 ###Feature Engineering
 
