@@ -81,3 +81,10 @@ jupyter notebook
 # 1. Face Recognition using CASIA dataset.ipynb - Base model training
 # 2. Face Recognition using Occluded dataset.ipynb - Robustness evaluation
 ```
+## 🌟 Future Roadmap
+   - Dynamic Occlusion Handling
+   - Add LFW and MegaFace benchmarks
+   - TensorFlow Lite for ESP32-CAM integration
+   - 3D Face Reconstruction
+
+
