@@ -15,7 +15,6 @@ A cutting-edge face recognition system evaluating model robustness against real-
 |--------------|----------|--------|-------------------------------------------------------------------------------------------|------------|
 | CASIA        | 14       | 190    | None                                                                                      | 640x480    |
 | Occluded     | 200      | 1600   | Left crop, right Crop,  Low brightness, high brightness, Blackdots, Blurred, Sktech,      | 640x480    |
-                                  
 
 
 ## 🛠 Technical Implementation
@@ -31,9 +30,9 @@ A cutting-edge face recognition system evaluating model robustness against real-
   - PCA dimensionality reduction (512 → 128)
   - L2-normalized feature vectors
 
-### ML Pipeline
-pipeline = Pipeline([
-    ('scaler', StandardScaler()),
-    ('pca', PCA(n_components=128)),
-    ('clf', GridSearchCV(SVC(), param_grid, cv=3))
-])
+## 📊 Performance Analysis
+
+| Condition    | Accuracy  | Precision | Recall      | Support    |
+|--------------|---------- |--------   |-------------|------------|
+| CASIA        |    95%    |    95%    |      94%    |    55      |
+| Occluded     |    98%    |    98%    |      97%    |    370     |
