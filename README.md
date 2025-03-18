@@ -13,8 +13,11 @@ A cutting-edge face recognition system evaluating model robustness against real-
 ### **Core Datasets**
 | Dataset      | Subjects | Images | Occlusion Types              | Resolution |
 |--------------|----------|--------|-------------------------------|------------|
-| CASIA        | 200      | 10,000 | None                         | 640x480    |
-| Occluded     | 200      | 15,000 | Sunglasses, Masks, Objects   | 640x480    |
+| CASIA        | 14       | 190    | None                          | 640x480    |
+| Occluded     | 200      | 1600   | Left crop, right Crop         | 640x480    |
+                                   |  Low brightness,              |
+                                   |  high brightness              |
+                                   |  Blackdots, Blurred, Sktech   |
 
 ### **Augmentation Pipeline**
 ```mermaid
