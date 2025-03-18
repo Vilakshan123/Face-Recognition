@@ -26,3 +26,21 @@ C --> D[Random Occlusion]
 D --> E[Gamma Correction]
 E --> F[Noise Injection]
 F --> G[Final Preprocessed Image]
+
+🛠 Technical Implementation
+Core Components
+Face Processing
+
+MTCNN-based alignment with 5-point landmarks
+
+Adaptive histogram equalization
+
+160x160 normalized RGB output
+
+Feature Engineering
+
+FaceNet-512 embeddings
+
+PCA dimensionality reduction (512 → 128)
+
+L2-normalized feature vectors
