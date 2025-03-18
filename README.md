@@ -64,7 +64,7 @@ def apply_occlusion(img):
 ## 🚀 Getting Started
 ### Installation
 ```python
-git clone https://github.com/yourusername/robust-face-recognition.git
+git clone https://github.com/Vilakshan123/Face-Recognition.git
 conda create -n facerec python=3.8
 conda activate facerec
 pip install -r requirements.txt
