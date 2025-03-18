@@ -72,7 +72,7 @@ pip install -r requirements.txt
 ```
 ### Dataset Setup
 ```python
-mkdir -p data/{casia,occluded}
+ # unzip data.zip
 # Download CASIA-Web dataset and Occluded dataset to respective folders
 ```
 ### Training & Evaluation
