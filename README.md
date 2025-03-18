@@ -30,3 +30,10 @@ A cutting-edge face recognition system evaluating model robustness against real-
   - FaceNet-512 embeddings
   - PCA dimensionality reduction (512 → 128)
   - L2-normalized feature vectors
+
+### ML Pipeline
+pipeline = Pipeline([
+    ('scaler', StandardScaler()),
+    ('pca', PCA(n_components=128)),
+    ('clf', GridSearchCV(SVC(), param_grid, cv=3))
+])
