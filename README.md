@@ -19,19 +19,16 @@ A cutting-edge face recognition system evaluating model robustness against real-
 
 
 ## 🛠 Technical Implementation
-Core Components
-Face Processing
+###Core Components
+     - Face Processing
+    - MTCNN-based alignment with 5-point landmarks
+    -Adaptive histogram equalization
+    -160x160 normalized RGB output
 
-MTCNN-based alignment with 5-point landmarks
+###Feature Engineering
 
-Adaptive histogram equalization
+-FaceNet-512 embeddings
 
-160x160 normalized RGB output
+-PCA dimensionality reduction (512 → 128)
 
-Feature Engineering
-
-FaceNet-512 embeddings
-
-PCA dimensionality reduction (512 → 128)
-
-L2-normalized feature vectors
+-L2-normalized feature vectors
