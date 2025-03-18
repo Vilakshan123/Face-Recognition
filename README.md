@@ -17,17 +17,8 @@ A cutting-edge face recognition system evaluating model robustness against real-
 | Occluded     | 200      | 1600   | Left crop, right Crop,  Low brightness, high brightness, Blackdots, Blurred, Sktech,      | 640x480    |
                                   
 
-### **Augmentation Pipeline**
-```mermaid
-graph LR
-A[Raw Image] --> B[Face Detection]
-B --> C[Alignment]
-C --> D[Random Occlusion]
-D --> E[Gamma Correction]
-E --> F[Noise Injection]
-F --> G[Final Preprocessed Image]
 
-🛠 Technical Implementation
+## 🛠 Technical Implementation
 Core Components
 Face Processing
 
