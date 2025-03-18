@@ -60,3 +60,24 @@ def apply_occlusion(img):
 |--------------|---------- |--------   |-------------|------------|
 | CASIA        |    95%    |    95%    |      94%    |    55      |
 | Occluded     |    98%    |    98%    |      97%    |    370     |
+
+## 🚀 Getting Started
+### Installation
+```python
+git clone https://github.com/yourusername/robust-face-recognition.git
+conda create -n facerec python=3.8
+conda activate facerec
+pip install -r requirements.txt
+
+```
+### Dataset Setup
+```python
+mkdir -p data/{casia,occluded}
+# Download CASIA-Web dataset and Occluded dataset to respective folders
+```
+### Training & Evaluation
+``` python
+jupyter notebook
+# 1. Face Recognition using CASIA dataset.ipynb - Base model training
+# 2. Face Recognition using Occluded dataset.ipynb - Robustness evaluation
+```
