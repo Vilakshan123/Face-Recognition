@@ -1,4 +1,4 @@
-# 🎭 Face Recognition System with CASIA & Occluded Datasets
+# 🎭 Face Recognition System Using FaceNet and MTCNN with CASIA & Occluded Datasets
 
 [![OpenCV](https://img.shields.io/badge/OpenCV-5.0%2B-green)](https://opencv.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.18%2B-orange)](https://www.tensorflow.org/)
