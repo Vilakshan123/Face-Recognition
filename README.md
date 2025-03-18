@@ -14,7 +14,30 @@ A cutting-edge face recognition system evaluating model robustness against real-
 | Dataset      | Subjects | Images | Occlusion Types                                                                           | Resolution |
 |--------------|----------|--------|-------------------------------------------------------------------------------------------|------------|
 | CASIA        | 14       | 190    | None                                                                                      | 640x480    |
-| Occluded     | 200      | 1600   | Left crop, right Crop,  Low brightness, high brightness, Blackdots, Blurred, Sktech,      | 640x480    |
+| Occluded     | 200      | 1600   | Left crop, right Crop,  Low brightness, high brightness, Blackdots, Blurred and Sktech    | 640x480    |
+
+### **Custom Occlusion Pipeline**
+I generated challenging synthetic variations from CASIA baseline using:
+- **Spatial Transformations**  
+  🌄 `Left/Right Crop` (20-30% region removal)  
+  🖼️ `Sketch Effect` (Canny edge detection + stylization)
+  
+- **Photometric Distortions**  
+  🔆 `Low/High Brightness` (±50% delta)  
+  ⚫ `Blackdots Noise` (5-15% coverage)  
+  🌫️ `Gaussian Blur` (σ=1.5-3.0)
+
+*Example augmentation pipeline:*
+```python
+def apply_occlusion(img):
+    occlusion_type = random.choice([
+        'left_crop', 'right_crop', 
+        'low_light', 'overexposure',
+        'blackdots', 'gaussian_blur',
+        'pencil_sketch'
+    ])
+    # Implementation details in augmentation.py
+    return transformed_image
 
 
 ## 🛠 Technical Implementation
