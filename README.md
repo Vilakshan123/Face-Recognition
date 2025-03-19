@@ -83,8 +83,11 @@ def apply_occlusion(img):
 | Occluded     |    98%    |    98%    |      97%    |    370     |
 
 ## 🎭 Result
-- Recognized by Facenet using CASIA dataset <img width="551" alt="Image" src="https://github.com/user-attachments/assets/c5e534c1-8072-4695-94ef-e70dba49aab0" />
-- Recognized by Facenet using occluded dataset <img width="568" alt="Image" src="https://github.com/user-attachments/assets/184a37d0-e21c-458d-829b-682884b09681" />
+- Recognized by Facenet using CASIA dataset
+<img width="551" alt="Image" src="https://github.com/user-attachments/assets/c5e534c1-8072-4695-94ef-e70dba49aab0" />
+
+- Recognized by Facenet using occluded dataset
+<img width="568" alt="Image" src="https://github.com/user-attachments/assets/184a37d0-e21c-458d-829b-682884b09681" />
 
 ## 🔍 Conclusion
   - FaceNet performs well on the CASIA dataset with high accuracy.
