@@ -12,7 +12,7 @@ A cutting-edge face recognition system evaluating model robustness against real-
 ## 🚀 Getting Started
 ### Installation
 ```python
-git clone https://github.com/Vilakshan123/Face-Recognition.git
+git clone https://github.com/Vilakshan123/Face-Recognition-using-FaceNet-and-MTCNN.git
 conda create -n facerec python=3.8
 conda activate facerec
 pip install -r requirements.txt
